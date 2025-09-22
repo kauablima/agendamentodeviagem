@@ -1,18 +1,26 @@
 
 interface Botao {
   children: string
-  color: 'primary'|'secundary'
+  color?: 'primary'|'secundary'
+  lenght?: 'default'| 'long'
   icon?: 'google'
+  click?: any
 }
 
-export const Button = ({children, color, icon}: Botao) => {
+export const Button = ({children, color, lenght, icon, click}: Botao) => {
+
+  /* BOTÃO CONFIRMAR */
+
+
+
   return (
-    <button className={`flex flex-row justify-center items-center py-[9px] px-[24px] font-primary w-[300px] h-[47px] rounded-2xl
-      ${color === 'primary' ? 'bg-primary text-white' : 'bg-white text-primary'}
+    <button onClick={click} className={`flex flex-row justify-center items-center font-primary font-semibold rounded-2xl text-xl 
+      ${lenght === 'default' ? 'w-[188px] h-[48px] py-[9px] px-[23px]': ' w-[300px] h-[47px] py-[9px] px-[24px]'}
+      ${color === 'primary' ? 'bg-primary text-white ' : 'bg-white text-primary '}
       ${icon === 'google' ? 'border-black border-2 ': ''}
       `}>
         {icon === 'google' && (
-        <svg className="w-5 h-5" viewBox="0 0 24 24">
+        <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24">
           <path
             fill="#4285F4"
             d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"

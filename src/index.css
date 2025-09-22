@@ -4,6 +4,7 @@
   --color-primary: #192639;
   --color-secundary: #142D53;
   --color-close: #DA0707;
+  --color-color-placeholder: oklch(70.8% 0 0);
 
   --font-primary: 'Montserrat', sans-serif;
 

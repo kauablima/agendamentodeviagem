@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+  --color-azulescuro : rgba(25, 38, 57, 1)
+}

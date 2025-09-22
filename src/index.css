@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  --color-azulescuro : rgba(25, 38, 57, 1)
+  --color-primary: #192639;
+  --color-secundary: #142D53;
+  --color-close: #DA0707;
+
+  --font-primary: 'Montserrat', sans-serif;
+
 }

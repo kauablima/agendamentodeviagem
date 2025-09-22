@@ -1,5 +1,3 @@
-import { useState } from "react"
-
 type Cadastro = {
   nome: string
   email: string
@@ -9,6 +7,7 @@ type Cadastro = {
 
 
 const Cadastro = () => {
+   
   return (
     <div className="">
       <img src="src/assets/logo.png" alt="seja bem vindo" />

@@ -1,9 +1,9 @@
-import Login from "./pages/login/login";
-
+import { Cadastro } from "./pages/login/cadastro";
 
 function App() {
   return( 
-    <Login />
+    <Cadastro />
+
   )
 }
 

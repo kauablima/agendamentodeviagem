@@ -18,7 +18,7 @@ const Entrar = () => {
         <Forms name="password" type="password" value="" placeholder="Digite sua senha"></Forms>
       </div>
       
-      <div className="flex flex-row gap-x-6 mt-4 mb-7 text-sm items-center mb-12">
+      <div className="flex flex-row gap-x-6 mt-4  text-sm items-center mb-12">
         <div className="flex items-center">
           <input 
             type="checkbox" 

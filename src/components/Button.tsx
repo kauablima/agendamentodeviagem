@@ -16,7 +16,7 @@ export const Button = ({children, color, lenght, icon, click}: Botao) => {
   return (
     <button onClick={click} className={`flex flex-row justify-center items-center font-primary font-semibold rounded-2xl text-xl 
       ${lenght === 'default' ? 'w-[188px] h-[48px] py-[9px] px-[23px]': ' w-[300px] h-[47px] py-[9px] px-[24px]'}
-      ${color === 'primary' ? 'bg-primary text-white ' : 'bg-white text-primary '}
+      ${color === 'primary' ? 'bg-primary text-white ' : 'bg-white text-primary border-2 border-primary '}
       ${icon === 'google' ? 'border-black border-2 ': ''}
       `}>
         {icon === 'google' && (

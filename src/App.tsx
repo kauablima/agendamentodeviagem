@@ -1,8 +1,8 @@
-import { Cadastro } from "./pages/login/cadastro";
+import { CadastroMotorista } from "./pages/login/cadastroMotorista";
 
 function App() {
   return( 
-    <Cadastro />
+    <CadastroMotorista />
 
   )
 }

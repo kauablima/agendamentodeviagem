@@ -1,6 +1,11 @@
-# Projeto de interfaces voltada para o mobile
+# Projeto de Interface Mobile
 
-Esse projeto é apenas um treino pra melhorar minhas skis com Tailwindcss e com React, até o momento sem foco em fazer requisições por meio de APIs com o back-end.
+Este projeto é um exercício de prática com o objetivo de aprimorar minhas habilidades em **TailwindCSS** e **React**.  
+Atualmente, o foco está exclusivamente na construção da interface (frontend), **sem integração com APIs ou back-end**.
 
-Ferramentas: 
-React + TypeScript + Vite + TailWindCSS 
+## 🚀 Tecnologias Utilizadas
+
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)

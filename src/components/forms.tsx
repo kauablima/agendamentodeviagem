@@ -9,7 +9,7 @@ interface Formulario {
   icon?: 'email' | 'password'
 }
 
-export const Forms = ({ type, name, value, onChange, placeholder, error, icon}:Formulario ) => {
+export const Forms = ({ type, name, value, onChange, placeholder, error}:Formulario ) => {
   return (
     <div className="flex flex-col justify-center items-center text-center">
       <input 

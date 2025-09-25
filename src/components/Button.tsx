@@ -8,11 +8,6 @@ interface Botao {
 }
 
 export const Button = ({children, color, lenght, icon, click}: Botao) => {
-
-  /* BOTÃO CONFIRMAR */
-
-
-
   return (
     <button onClick={click} className={`flex flex-row justify-center items-center font-primary font-semibold rounded-2xl text-xl 
       ${lenght === 'default' ? 'w-[188px] h-[48px] py-[9px] px-[23px]': ' w-[300px] h-[47px] py-[9px] px-[24px]'}

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "../../components/Button";
 import { Forms } from "../../components/forms";
 
-export const Cadastro = () => {
+export const Cadastro = () => {      
   const [lembrarDeMim, setLembrarDeMim] = useState(false);
   
   const handleLembrarDeMimChange = () => {
@@ -54,8 +54,8 @@ export const Cadastro = () => {
            
             <span className="whitespace-pre-line ml-1 font-medium text-gray-700 group-hover:text-gray-900 
             transition-colors duration-200">
-              Eu li e concordo com os termos <br></br> 
-              e condições aqui apresentados
+              'Eu li e concordo com os termos <br></br> 
+              e condições aqui apresentados'
             </span>
           </label>
         </div>
